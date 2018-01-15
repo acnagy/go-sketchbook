@@ -6,3 +6,4 @@ script:
   - go test -v -coverprofile=coverage.txt -covermode=atomic
 after_script:
   - bash <(curl -s https://codecov.io/bash)
+
