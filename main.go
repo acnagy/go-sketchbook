@@ -2,5 +2,5 @@ package main
 
 func main() {
 	checkCI("Travis CI")
-	DoSomethingUntested("YOLO")
+	doSomethingUntested("YOLO")
 }
